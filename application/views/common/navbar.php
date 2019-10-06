@@ -1,6 +1,6 @@
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-dark black">
-
+<div class="container">
   <!-- Navbar brand -->
   <a class="navbar-brand ml-0" href="#">Eliane Nery Cabeleireiros</a>
 
@@ -36,7 +36,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="https://www.instagram.com/rayeeliane" class="nav-link" target="_blank">
+                <a href="https://www.instagram.com/elianerycab" class="nav-link" target="_blank">
                 <i class="fab fa-instagram"></i>
                 </a>
             </li>
@@ -47,6 +47,6 @@
             </li>
         </ul>
 </div>
-
+</div>
 </nav>
 <!--/.Navbar-->

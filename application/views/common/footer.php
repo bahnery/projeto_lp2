@@ -1,8 +1,7 @@
  <!--Footer-->
  <footer class="black fixed-bottom page-footer text-center font-small mt-5 wow fadeIn ">
-<hr class="my-4">
-<!--Copyright-->
-<div class="footer-copyright py-1">
+ <!--Copyright-->
+<div class="footer-copyright py-3">
   © 2019 Copyright:
   <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
 </div>
@@ -24,29 +23,34 @@
 <script type="text/javascript">
 // Animations initialization
 new WOW().init();
+
 </script>
-                    <!--Google Maps-->
-                    <script src="https://maps.google.com/maps/api/js"></script>
-            <script>
-                // Regular map
-                function regular_map() {
-                var var_location = new google.maps.LatLng(40.725118, -73.997699);
+</body>
 
-                var var_mapoptions = {
-                    center: var_location,
-                    zoom: 14
-                };
+</html>
 
-                var var_map = new google.maps.Map(document.getElementById("map-container"),
-                    var_mapoptions);
+<!--Google Maps-->
+<script src="https://maps.google.com/maps/api/js"></script>
+<script>
+    // Regular map
+    function regular_map() {
+    var var_location = new google.maps.LatLng(-23,56, -46,6327);
 
-                var var_marker = new google.maps.Marker({
-                    position: var_location,
-                    map: var_map,
-                    title: "New York"
-                });
-                }
-            </script>
+    var var_mapoptions = {
+    center: var_location,
+    zoom: 50
+    };
+
+    var var_map = new google.maps.Map(document.getElementById("map-container"),
+    var_mapoptions);
+
+    var var_marker = new google.maps.Marker({
+    position: var_location,
+    map: var_map,
+    title: "New York"
+    });
+    }
+    </script>
 </body>
 
 </html>

@@ -21,7 +21,20 @@
       }
     }
 
-  </style>
+    .map-container{
+    overflow:hidden;
+    padding-bottom:25.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+</style>
 </head>
 
 <body>
