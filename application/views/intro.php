@@ -5,25 +5,20 @@
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
       <!-- Content -->
-      <div class="text-center white-text mx-5 wow fadeIn">
-        <h1 class="mb-4">
-          <strong>Learn Bootstrap 4 with MDB</strong>
-        </h1>
-
-        <p>
-          <strong>Best & free guide of responsive web design</strong>
-        </p>
-
-        <p class="mb-4 d-none d-md-block">
-          <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written
-            versions available.
-            Create your own, stunning website.</strong>
-        </p>
-
-        <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
-          free tutorial
-          <i class="fas fa-graduation-cap ml-2"></i>
-        </a>
+      <div class="container">
+        <!--Grid row-->
+        <div class="row pt-lg-5 mt-lg-5">
+          <!--Grid column-->
+          <div class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left wow fadeInLeft"
+            data-wow-delay="0.3s">
+            <h1 class="display-4 font-weight-bold">Ame & Cuide</h1>
+            <hr class="hr-light">
+            <h6 class="mb-3">Cuidados personalizados e de boa qualidade para você e para seus cachos. Especialidade em cabelos crespos e cacheados.</h6>
+            <a class="btn btn-outline-white">Saiba Mais!</a>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
       </div>
       <!-- Content -->
 
