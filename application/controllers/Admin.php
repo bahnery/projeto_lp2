@@ -39,7 +39,7 @@ class Admin extends CI_Controller {
 
 	public function insertCCard(){
 		
-		$config['upload_path']          = './uploads/';
+		$config['upload_path']          = './assets/img';
 		$config['allowed_types']        = 'jpg';
 		$config['file_name']			= $data['IMAGEM'] = $this->input->post('IMAGEM');
 		$config['max_size']             = 5000;
