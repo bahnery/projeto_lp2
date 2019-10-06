@@ -22,7 +22,7 @@
                         <td><?= $servico['TITULO']?></td>
                         <td><?= $servico['RESUMO']?></td>
                         <td><?= $servico['IMAGEM']?></td>
-                        <td><a href="<?php echo site_url('admin/deleteCCard').'/'.$servico['ID'];?>" ><i class="fas fa-trash-alt"></i></a><a><i class="ml-3 far fa-edit"></i></td></a>
+                        <td><a href="<?php echo site_url('admin/deleteCCard').'/'.$servico['ID'];?>" ><i class="fas fa-trash-alt"></i></a><a href="<?php echo site_url('admin/editar').'/'.$servico['ID'];?>"><i class="ml-3 far fa-edit"></i></td></a>
                     </tr> 
                 <?php }?>  
                 </tbody>

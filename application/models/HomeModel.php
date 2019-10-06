@@ -38,4 +38,14 @@ class HomeModel extends CI_Model{
         return $this->db->insert('servicos', $data);
         
     }
+
+    public function editModel($id, $data){
+        //$this->db->set('TITULO', $data['TITULO'], FALSE);
+        //$this->db->set('RESUMO', $data['RESUMO'], FALSE);
+        //$this->db->set('IMAGEM', , FALSE);
+        //$this->db->where('ID', $id);
+        //var_dump($id);
+        //die();
+        $this->db->update('servicos', $data, array('ID' => $id));
+    }
 }
