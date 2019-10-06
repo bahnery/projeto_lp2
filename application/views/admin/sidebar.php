@@ -6,26 +6,14 @@
       </a>
         Serviços
       <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action waves-effect">
+        <a href="<?php base_url('admin')?>" class="list-group-item list-group-item-action waves-effect">
           <i class="fas fa-table mr-3"></i>Listar</a>
       </div>
       <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action waves-effect">
+        <a href="<?php site_url('admin/adicionar')?>" class="list-group-item list-group-item-action waves-effect">
           <i class="fas fa-plus-square mr-3"></i>Adicionar</a>
       </div>
 
     </div>
     <!-- Sidebar -->
-     <!-- The sidebar -->
-      <div class="sidebar">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-      </div>
-
-      <!-- Page content -->
-      <div class="content">
-        ..
-      </div> 
 </header>

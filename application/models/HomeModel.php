@@ -33,4 +33,9 @@ class HomeModel extends CI_Model{
         return $this->db->delete('servicos', $id);
         
     }
+
+    public function insertModel($data){
+        return $this->db->insert('servicos', $data);
+        
+    }
 }
