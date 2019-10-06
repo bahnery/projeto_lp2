@@ -6,11 +6,11 @@
       </a>
         Serviços
       <div class="list-group list-group-flush">
-        <a href="<?php base_url('admin')?>" class="list-group-item list-group-item-action waves-effect">
+        <a href="<?= site_url('admin/index')?>" class="list-group-item list-group-item-action waves-effect">
           <i class="fas fa-table mr-3"></i>Listar</a>
       </div>
       <div class="list-group list-group-flush">
-        <a href="<?php site_url('admin/adicionar')?>" class="list-group-item list-group-item-action waves-effect">
+        <a href="<?= site_url('admin/adicionar') ?>" class="list-group-item list-group-item-action waves-effect">
           <i class="fas fa-plus-square mr-3"></i>Adicionar</a>
       </div>
 

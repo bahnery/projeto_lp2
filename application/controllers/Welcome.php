@@ -5,7 +5,7 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{	
-
+		$data['home'] = $this->HomeModel->getHome();
 		$this->load->view('common/header');
 		$this->load->view('common/navbar_home');
 		$this->load->view('home/intro');

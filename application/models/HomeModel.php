@@ -8,19 +8,9 @@ class HomeModel extends CI_Model{
 
     }
 
-    public function get(){
+    public function getHome(){
         
         return "teste teste teste";
-    }
-
-    public function connection_test(){
-
-    }
-
-    public function get_version(){
-
-        $result_set = $this->db->query('SELECT VERSION()');
-        return $result_set;
     }
 
     public function all(){

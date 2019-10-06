@@ -17,10 +17,10 @@
             <h6 class="mb-3">
                 <ul class="text-lg-left list-unstyled ml-4">
                     <li>
-                    <p><i class="fas fa-map-marker-alt pr-2"></i>Av. da Liberdade, São Paulo - SP</p>
+                    <p><i class="fas fa-map-marker-alt pr-2"></i>Chicago - Illinois</p>
                     </li>
                     <li>
-                    <p><i class="fas fa-phone pr-2"></i>11 2440-3734</p>
+                    <p><i class="fas fa-phone pr-2"></i>+1 555 798 654 1</p>
                     </li>
                     <li>
                     <p><i class="fas fa-envelope pr-2"></i>contato@elianenery.com</p>

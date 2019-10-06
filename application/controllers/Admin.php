@@ -38,11 +38,27 @@ class Admin extends CI_Controller {
 	}
 
 	public function insertCCard(){
-		//var_dump($this->input->post());
-		//die();
-		$insert = $this->input->post();
-		$this->HomeModel->insertModel($insert);
-		return redirect('admin');
+		
+		$config['upload_path']          = './uploads/';
+		$config['allowed_types']        = 'jpg';
+		$config['file_name']			= $data['IMAGEM'] = $this->input->post('IMAGEM');
+		$config['max_size']             = 5000;
+		$config['max_width']            = 5000;
+		$config['max_height']           = 5000;
+
+		$this->load->library('upload', $config);
+
+		if ($this->upload->do_upload('userfile')){				
+				$data['TITULO'] = $this->input->post('TITULO');
+				$data['IMAGEM'] = $this->input->post('IMAGEM');				
+				$data['RESUMO'] = $this->input->post('RESUMO');
+				
+				$this->HomeModel->insertModel($data);
+				return redirect('admin');
+		}
+
+		$error = array('error' => $this->upload->display_errors());
+		echo($error['error']);	
 	}
 
 	public function editCCard(){

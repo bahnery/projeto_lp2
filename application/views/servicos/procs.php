@@ -13,7 +13,7 @@
 
                             <!--Card image-->
                             <div class="view view-cascade">
-                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20%283%29.jpg" class="card-img-top">
+                                <img src="<?php echo base_url('./uploads').'/'.$servico['IMAGEM'];?>" class="card-img-top">
                                 <a href="#!">
                                 <div class="mask rgba-white-slight"></div>
                                 </a>
