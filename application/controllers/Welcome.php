@@ -8,14 +8,21 @@ class Welcome extends CI_Controller {
 		$this->load->view('common/header');
 		$this->load->view('common/navbar_home');
 		$this->load->view('home/intro');
-		$this->load->view('common/footer');
 	}
 
 	public function servicos()
 	{	
 		$this->load->view('common/header');
 		$this->load->view('common/navbar');
-		$this->load->view('content');
+		$this->load->view('servicos/procs');
+		$this->load->view('common/footer');
+	}
+
+	public function contato()
+	{	
+		$this->load->view('common/header');
+		$this->load->view('common/navbar');
+		$this->load->view('contato/info');
 		$this->load->view('common/footer');
 	}
 }

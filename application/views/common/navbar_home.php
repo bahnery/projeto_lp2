@@ -28,7 +28,7 @@
                 <a class="nav-link" href="<?= site_url('welcome/servicos')?>">Serviços</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo site_url('contato')?>">Contato</a>
+                <a class="nav-link" href="<?php echo site_url('welcome/contato')?>">Contato</a>
             </li>
         </ul>
 
@@ -39,10 +39,15 @@
                 <i class="fab fa-facebook-f"></i>
                 </a>
             </li>
-            <li>
-                <div class="btn-group ml-3 mt-1 mr-0" role="group" aria-label="First group">
-                    <a type="button" style="text-decoration:none;" class="btn-floating btn-sm white" href="<?= site_url('admin')?>"><i class="fas fa-user" aria-hidden="true"></i></a>
-                </div>
+            <li class="nav-item">
+                <a href="https://www.instagram.com/rayeeliane" class="nav-link" target="_blank">
+                <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="<?= base_url('admin')?>" class="nav-link" target="_blank">
+                <i class="fas fa-cog"></i>
+                </a>
             </li>
         </ul>
       </div>
