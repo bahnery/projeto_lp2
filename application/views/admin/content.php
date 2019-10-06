@@ -16,13 +16,15 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Cell</td>
-                    <td>Cell</td>
-                    <td>Cell</td>
-                    <td><a><i class="fas fa-trash-alt"></i></a><a><i class="ml-3 far fa-edit"></i></td></a>
-                    </tr>   
+                <?php foreach($servicos as $servico){?>
+                    <tr>                    
+                        <th scope="row"><?= $servico['ID']?></th>
+                        <td><?= $servico['TITULO']?></td>
+                        <td><?= $servico['RESUMO']?></td>
+                        <td><?= $servico['IMAGEM']?></td>
+                        <td><a href="<?php echo site_url('admin/deleteCCard').'/'.$servico['ID'];?>" ><i class="fas fa-trash-alt"></i></a><a><i class="ml-3 far fa-edit"></i></td></a>
+                    </tr> 
+                <?php }?>  
                 </tbody>
             </table>
         </div>

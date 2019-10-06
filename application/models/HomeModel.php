@@ -27,4 +27,10 @@ class HomeModel extends CI_Model{
         $result_set = $this->db->get('servicos');
         return $result_set->result_array();
     }
+
+    public function deleteModel($id){
+        $this->db->delete('servicos', ['id'=> $id]);
+        return $this->db->delete('servicos', $id);
+        
+    }
 }
