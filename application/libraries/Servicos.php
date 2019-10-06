@@ -1,29 +1,30 @@
-<?php 
+<?php
 
-class Servicos {
-    // atributos
-    private $titulo;
-    private $descricao;
-    private $img;
-
-    // construtor
-    function __construct(){
-        $this->titulo = 
-        $this->descricao = 
-        $this->img = 
+class Servicos extends CI_Object {
+    
+    public function get(){
+        $rs = $this->db->get('servicos');
+        return $rs->result_array();
     }
 
-    // métodos acessores
-    public function getTitulo(){
-        return $this->titulo;
+    public function get_by_id($id){
+        $cond['id'] = $id;
+        $rs = $this->db->get_where('servicos', $cond);
+        return $rs->row_array();
     }
 
-    public function getDescricao(){
-        return $this->descricao;
+    public function set(Array $data){
+        $this->db->insert('servicos', $data);
     }
 
-    public function getImage(){
-        return $this->img;
+    public function update($data, $id){
+        $cond['id'] = $id;
+        return $this->db->update('servicos', $data, $cond);
+    }
+
+    public function delete($id){
+        $cond = array('id' => $id);
+        $this->db->delete('servicos', $cond);
     }
 
 }

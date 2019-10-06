@@ -41,7 +41,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="<?= base_url('welcome/admin')?>" class="nav-link" target="_blank">
+                <a href="<?= base_url('admin')?>" class="nav-link" target="_blank">
                 <i class="fas fa-cog"></i>
                 </a>
             </li>
