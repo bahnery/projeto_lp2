@@ -1,5 +1,5 @@
   <!-- Full Page Intro -->
-  <div class="view" style="background-image: url('<?= base_url('assets/mdb/img/start.jpg') ?>'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+  <div class="view" style="background-image: url('<?= base_url('assets/mdb/img/home.jpg') ?>'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
