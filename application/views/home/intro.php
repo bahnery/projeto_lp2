@@ -14,7 +14,7 @@
             <h1 class="display-4 font-weight-bold">Ame & Cuide</h1>
             <hr class="hr-light">
             <h6 class="mb-3">Cuidados personalizados e de boa qualidade para você e para seus cachos. Especialidade em cabelos crespos e cacheados.</h6>
-            <a class="btn btn-outline-white">Saiba Mais!</a>
+            <a class="btn btn-outline-white" href="<?= site_url('welcome/servicos')?>">Saiba Mais!</a>
           </div>
           <!--Grid column-->
         </div>

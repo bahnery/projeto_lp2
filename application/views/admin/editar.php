@@ -13,7 +13,7 @@
             <input type="text" id="textInput" name="RESUMO" class="form-control mb-4" placeholder="Descrição">
 
             <label for="textInput">Nome do arquivo</label>
-            <input type="text" id="textInput" name="IMAGEM" class="form-control mb-4" placeholder="Nome da imagem">
+            <input type="text" id="textInput" name="IMAGEM" class="form-control mb-4" placeholder="Nome da imagem com extensão">
 
             <label for="textInput">Imagem</label>
             <div class="input-group mb-4">
